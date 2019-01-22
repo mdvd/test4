@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST PAGE</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="page-header">
+        <div class="page-header__logo">
+          <svg>
+            <polygon points="0,589 0,0 589,0"/>
+          </svg>
+          <img src="img/logo.png" width="226" height="98" alt="">
+          <div class="page-header__sale-logo">
+
+          </div>
+        </div>
+        <div class="page-header__image">
+          <img srcset="img/girl-header.png  286w,
+                       img/girl-header-desc.png 431w"
+               sizes="(max-width: 1150px) 286px,
+                      431px"
+               src="img/girl-header-desc.png" alt="">
+        </div>
+        <div class="page-header__title">
+          <h2>Искусство медиапланирования пренебр</h2>
+          <div class="page-header__tagline">
+            <p>Потребительский рынок программирует эмпирически</p>
+          </div>
+          <div class="page-header__discount  discount">
+            <div class="discount__timer">
+              <span class="discount__timer-title">До оканчания акции:</span>
+              <div class="discount__timer-el">
+                <div class="discount__timer-disp  discount__timer-disp--days"></div>
+                <span class="discount__timer-desc">Дней</span>
+              </div>
+              <div class="discount__timer-el">
+                <div class="discount__timer-disp  discount__timer-disp--hours"></div>
+                <span class="discount__timer-desc">Часов</span>
+              </div>
+              <div class="discount__timer-el">
+                <div class="discount__timer-disp  discount__timer-disp--minutes"></div>
+                <span class="discount__timer-desc">Минут</span>
+              </div>
+            </div>
+            <div class="discount__price">
+              <span class="discount__price-old">4321 грн</span>
+              <span class="discount__price-new">1234 грн</span>
+            </div>
+            <a href="#order" class="discount__btn">заказать по скидке</a>
+          </div>
+        </div>
+
+        <div class="page-header__collection  collection">
+          <span class="collection__title">Коллекция Зима 2018/19</span>
+          <ul class="collection__privilege">
+            <li class="collection__privilege-item">Стиль менеджмента консолидирует</li>
+            <li class="collection__privilege-item">Сегмент рынка довольно хорошо</li>
+            <li class="collection__privilege-item">Фактор коммуникации сотвоевывая</li>
+          </ul>
+        </div>
+    </header>
+    <section class="features-section">
+
+    </section>
+    <section class="gallery-section">
+      <h3 class="gallery-section__title"><span>выбери </span>свой цвет</h3>
+      <div class="gallery-section__wrapper  gallery-section__wrapper--grey">
+        <div class="gallery-section__gallery  gallery-section__gallery--grey  gallery">
+          <h3 class="gallery__title">pink grey</h3>
+          <input class="gallery__radio" id="gallerySwitchGray1" type="radio" name="gallery__switch-grey" value="" checked>
+          <input class="gallery__radio" id="gallerySwitchGray2" type="radio" name="gallery__switch-grey" value="">
+          <input class="gallery__radio" id="gallerySwitchGray3" type="radio" name="gallery__switch-grey" value="">
+          <input class="gallery__radio" id="gallerySwitchGray4" type="radio" name="gallery__switch-grey" value="">
+          <div class="gallery__image-wrapper">
+            <img class="gallery__image-item  gallery__image-item--first" src="img/grey_1.jpg" alt="">
+            <img class="gallery__image-item  gallery__image-item--second" src="img/grey_2.jpg" alt="">
+            <img class="gallery__image-item  gallery__image-item--third" src="img/grey_3.jpg" alt="">
+            <img class="gallery__image-item  gallery__image-item--fourth" src="img/grey_4.jpg" alt="">
+            <span class="gallery__btn  gallery__btn--left"></span>
+            <span class="gallery__btn  gallery__btn--right"></span>
+          </div>
+          <div class="gallery__toggle-list">
+            <label for="gallerySwitchGray1" class="gallery__toggle  gallery__toggle--grey"></label>
+            <label for="gallerySwitchGray2" class="gallery__toggle  gallery__toggle--grey"></label>
+            <label for="gallerySwitchGray3" class="gallery__toggle  gallery__toggle--grey"></label>
+            <label for="gallerySwitchGray4" class="gallery__toggle  gallery__toggle--grey"></label>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-section__wrapper  gallery-section__wrapper--black">
+        <div class="gallery-section__gallery    gallery-section__gallery--black  gallery">
+          <h3 class="gallery__title">pink black</h3>
+          <input class="gallery__radio" id="gallerySwitchBlack1" type="radio" name="gallery__switch-black" value="" checked>
+          <input class="gallery__radio" id="gallerySwitchBlack2" type="radio" name="gallery__switch-black" value="">
+          <input class="gallery__radio" id="gallerySwitchBlack3" type="radio" name="gallery__switch-black" value="">
+          <input class="gallery__radio" id="gallerySwitchBlack4" type="radio" name="gallery__switch-black" value="">
+          <div class="gallery__image-wrapper">
+            <img class="gallery__image-item  gallery__image-item--first" src="img/black_1.jpg" alt="">
+            <img class="gallery__image-item  gallery__image-item--second" src="img/black_2.jpg" alt="">
+            <img class="gallery__image-item  gallery__image-item--third" src="img/black_3.jpg" alt="">
+            <img class="gallery__image-item  gallery__image-item--fourth" src="img/black_4.jpg" alt="">
+            <span class="gallery__btn  gallery__btn--left"></span>
+            <span class="gallery__btn  gallery__btn--right"></span>
+          </div>
+          <div class="gallery__toggle-list">
+            <label for="gallerySwitchBlack1" class="gallery__toggle  gallery__toggle--black"></label>
+            <label for="gallerySwitchBlack2" class="gallery__toggle  gallery__toggle--black"></label>
+            <label for="gallerySwitchBlack3" class="gallery__toggle  gallery__toggle--black"></label>
+            <label for="gallerySwitchBlack4" class="gallery__toggle  gallery__toggle--black"></label>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="gallery-section__btn">перейти к товару</a>
+    </section>
+    <section class="privilege-section">
+      <div class="section-wrapper">
+        <div class="privilege-section__logo">
+          <img srcset="img/pink-logo-mobile.png  150w,
+                       img/pink-logo.png 260w"
+               sizes="(max-width: 1150px) 150px,
+                      260px"
+               src="img/pink-logo.png" alt="">
+        </div>
+        <div class="privilege-section__header">
+          <h3 class="privilege-section__title">преимущества</h3>
+          <p class="privilege-section__description">
+            Анализ зарубежного опыта тормозит нестандартный подход.
+            Согласно предыдущему, инструмент маркетинга основан на опыте.
+            Медиамикс обычно правомочен.
+          </p>
+        </div>
+        <div class="privilege-section__privileges-wrapper  privilege">
+          <div class="privilege__col">
+            <div class="privilege__item  privilege__item--material">
+              <div class="privilege__item-icon  privilege__item-icon--material">
+
+              </div>
+              <h4 class="privilege__item-title">натуральные материалы</h4>
+              <p class="privilege__item-desc">
+                Трикотаж-трехнитка – теплый
+                и приятный к телу материал (благодаря
+                начесу), обладает долгой эксплуатацией
+                и позволяет телу дышать.
+              </p>
+            </div>
+            <div class="privilege__item  privilege__item--stitch">
+              <div class="privilege__item-icon  privilege__item-icon--stitch">
+
+              </div>
+              <h4 class="privilege__item-title">идеально ровные швы</h4>
+              <p class="privilege__item-desc">
+                Аккуратные и ровные швы из прочных
+                нитей не натирают тело, не поддаются
+                деформации и увеличивают
+                износостойкость спортивных костюмов.
+              </p>
+            </div>
+          </div>
+          <div class="privilege__img">
+            <img srcset="img/girl-privilege-mobile.png  257w,
+                         img/girl-privilege.png 304w"
+                 sizes="(max-width: 767px) 257px,
+                        304px"
+                 src="img/girl-privilege.png" alt="">
+          </div>
+          <div class="privilege-col">
+            <div class="privilege__item  privilege__item--comfort">
+              <div class="privilege__item-icon  privilege__item-icon--comfort">
+
+              </div>
+              <h4 class="privilege__item-title">премиальный комфорт</h4>
+              <p class="privilege__item-desc">
+                Спортивные костюмы Pink из отборных
+                материалов позволят чувствовать себя
+                уверенно и комфортно осенью, а также
+                будут согревать вас зимой.
+              </p>
+            </div>
+            <div class="privilege__item  privilege__item--style">
+              <div class="privilege__item-icon  privilege__item-icon--style">
+
+              </div>
+              <h4 class="privilege__item-title">универсальный стиль</h4>
+              <p class="privilege__item-desc">
+                Популярная компания отошла от
+                спорта в узком смысле и производит
+                женскую одежду для активного образа
+                жизни в повседневном стиле.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="order" class="order-section">
+      <div class="section-wrapper">
+        <div class="order-section__col-left">
+          <div class="order-section__logo">
+
+          </div>
+          <p class="order-section__collection-discount">
+            Коллекция
+            зима 2018/19 <br>
+            <span>со скидкой 70%</span>
+          </p>
+          <div class="order-section__color-choice">
+            <label for="orderColorGrey" class="order-section__color-toggle  order-section__color-toggle--grey  order-section__color-toggle--active">pink grey</label>
+            <label for="orderColorBlack" class="order-section__color-toggle  order-section__color-toggle--black">pink black</label>
+          </div>
+          <div class="order-section__specifications  specifications">
+            <span class="specifications__show-btn">Характеристики</span>
+            <div class="specifications__desc">
+              <div class="specifications__about-product">
+                <span class="specifications__about-title">О товаре:</span>
+                <p class="specifications__about-desc">
+                  Женский спортивный костюм обладает высоким качеством ткани,
+                  удобством в использовании. Изготовлен с высококачественной
+                  и тёплой трехнитки на флике. Удобство и комфорт костюма позволяет
+                  не только с удовольствием заниматься спортом, но и чувствовать
+                  премиальный комфорт во время прогулок.
+                </p>
+              </div>
+              <div class="specifications__characteristics">
+                <span class="specifications__characteristics-title">Характеристики:</span>
+                <ul class="specifications__characteristics-list">
+                  <li class="specifications__characteristics-item">Пол: <b>женский</b></li>
+                  <li class="specifications__characteristics-item">Сезон: <b>осень-зима</b></li>
+                  <li class="specifications__characteristics-item">Ткань: <b>трикотаж-трехнить с начёсом</b></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="order-section__img">
+          <div class="order-section__img-wrp">
+            <img class="order-section__img-grey  order-section__img-grey--show" src="img/girl-order__grey.png" alt="pink grey">
+          </div>
+          <div class="order-section__img-wrp">
+            <img class="order-section__img-black" src="img/girl-order__black.png" alt="pink black">
+          </div>
+        </div>
+        <div class="order-section__col-right">
+          <div class="order-section__discount  discount">
+            <div class="discount__timer  discount__timer--order-section">
+              <span class="discount__timer-title">До оканчания акции:</span>
+              <div class="discount__timer-el">
+                <div class="discount__timer-disp  discount__timer-disp--days"></div>
+                <span class="discount__timer-desc">Дней</span>
+              </div>
+              <div class="discount__timer-el">
+                <div class="discount__timer-disp  discount__timer-disp--hours"></div>
+                <span class="discount__timer-desc">Часов</span>
+              </div>
+              <div class="discount__timer-el">
+                <div class="discount__timer-disp  discount__timer-disp--minutes"></div>
+                <span class="discount__timer-desc">Минут</span>
+              </div>
+            </div>
+            <div class="discount__price">
+              <span class="discount__price-old">4321 грн</span>
+              <span class="discount__price-new">1234 грн</span>
+            </div>
+            <form class="discount__order-form  order-form" action="index.html" method="post">
+              <div class="order-form__color">
+                <span class="order-form__color-title">Цвет</span>
+                <input id="orderColorGrey" type="radio" name="color-choice" value="pink grey" checked>
+                <label for="orderColorGrey" class="order-form__color-item  order-form__color-item--grey"></label>
+                <input id="orderColorBlack" type="radio" name="color-choice" value="pink black">
+                <label for="orderColorBlack" class="order-form__color-item  order-form__color-item--black"></label>
+              </div>
+              <div class="order-form__size">
+                <span class="order-form__size-title">Размер</span>
+                <select class="order-form__size-list" name="size-list">
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL" selected>XL</option>
+                </select>
+                <a href="#" class="order-form__size-table">Таблица размеров</a>
+              </div>
+              <div class="order-form__contacts">
+                <input type="text" name="name" value="" placeholder="Имя">
+                <input type="tel" name="phone" value="" placeholder="Телефон">
+              </div>
+              <input class="order-form__btn" type="submit" name="submit" value="заказать по скидке">
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="modal-gallery  modal-gallery--grey">
+      <div class="modal-gallery__gallery--grey  gallery-full-screen">
+        <h3 class="gallery-full-screen__title">pink grey</h3>
+        <input class="gallery-full-screen__radio" id="galleryModalGray1" type="radio" name="gallery-full-screen__modal-grey" value="" checked>
+        <input class="gallery-full-screen__radio" id="galleryModalGray2" type="radio" name="gallery-full-screen__modal-grey" value="">
+        <input class="gallery-full-screen__radio" id="galleryModalGray3" type="radio" name="gallery-full-screen__modal-grey" value="">
+        <input class="gallery-full-screen__radio" id="galleryModalGray4" type="radio" name="gallery-full-screen__modal-grey" value="">
+        <div class="gallery-full-screen__image-wrapper">
+          <img class="gallery-full-screen__image-item  gallery-full-screen__image-item--first" src="img/grey_1.jpg" alt="">
+          <img class="gallery-full-screen__image-item  gallery-full-screen__image-item--second" src="img/grey_2.jpg" alt="">
+          <img class="gallery-full-screen__image-item  gallery-full-screen__image-item--third" src="img/grey_3.jpg" alt="">
+          <img class="gallery-full-screen__image-item  gallery-full-screen__image-item--fourth" src="img/grey_4.jpg" alt="">
+          <span class="gallery-full-screen__btn  gallery-full-screen__btn--left"></span>
+          <span class="gallery-full-screen__btn  gallery-full-screen__btn--right"></span>
+        </div>
+        <div class="gallery-full-screen__toggle-list">
+          <label for="galleryModalGray1" class="gallery-full-screen__toggle  gallery-full-screen__toggle--grey"></label>
+          <label for="galleryModalGray2" class="gallery-full-screen__toggle  gallery-full-screen__toggle--grey"></label>
+          <label for="galleryModalGray3" class="gallery-full-screen__toggle  gallery-full-screen__toggle--grey"></label>
+          <label for="galleryModalGray4" class="gallery-full-screen__toggle  gallery-full-screen__toggle--grey"></label>
+        </div>
+      </div>
+    </div>
+    <div class="modal-gallery  modal-gallery--black">
+      <div class="modal-gallery__gallery--black  gallery-full-screen">
+        <h3 class="gallery-full-screen__title">pink black</h3>
+        <input class="gallery-full-screen__radio" id="galleryModalBlack1" type="radio" name="gallery-full-screen__modal-black" value="" checked>
+        <input class="gallery-full-screen__radio" id="galleryModalBlack2" type="radio" name="gallery-full-screen__modal-black" value="">
+        <input class="gallery-full-screen__radio" id="galleryModalBlack3" type="radio" name="gallery-full-screen__modal-black" value="">
+        <input class="gallery-full-screen__radio" id="galleryModalBlack4" type="radio" name="gallery-full-screen__modal-black" value="">
+        <div class="gallery-full-screen__image-wrapper">
+          <img class="gallery-full-screen__image-item  gallery-full-screen__image-item--first" src="img/black_1.jpg" width="585" height="828" alt="">
+          <img class="gallery-full-screen__image-item  gallery-full-screen__image-item--second" src="img/black_2.jpg" width="585" height="828" alt="">
+          <img class="gallery-full-screen__image-item  gallery-full-screen__image-item--third" src="img/black_3.jpg" width="585" height="828" alt="">
+          <img class="gallery-full-screen__image-item  gallery-full-screen__image-item--fourth" src="img/black_4.jpg" width="585" height="828" alt="">
+          <span class="gallery-full-screen__btn  gallery-full-screen__btn--left"></span>
+          <span class="gallery-full-screen__btn  gallery-full-screen__btn--right"></span>
+        </div>
+        <div class="gallery-full-screen__toggle-list">
+          <label for="galleryModalBlack1" class="gallery-full-screen__toggle  gallery-full-screen__toggle--black"></label>
+          <label for="galleryModalBlack2" class="gallery-full-screen__toggle  gallery-full-screen__toggle--black"></label>
+          <label for="galleryModalBlack3" class="gallery-full-screen__toggle  gallery-full-screen__toggle--black"></label>
+          <label for="galleryModalBlack4" class="gallery-full-screen__toggle  gallery-full-screen__toggle--black"></label>
+        </div>
+      </div>
+    </div>
+    <div class="modal-size">
+      <button class="modal-close" type="button" title="Закрыть">Закрыть</button>
+      <div class="modal-size__table-wrapper">
+      <table>
+        <tr>
+          <th></th>
+          <th>S</th>
+          <th>M</th>
+          <th>L</th>
+          <th>XL</th>
+        </tr>
+        <tr>
+          <td>Рост</td>
+          <td>165-172</td>
+          <td>172-179</td>
+          <td>179-186</td>
+          <td>186-193</td>
+        </tr>
+        <tr>
+          <td>Обхват груди</td>
+          <td>82/85</td>
+          <td>90/93</td>
+          <td>94/97</td>
+          <td>98/102</td>
+        </tr>
+        <tr>
+          <td>Обхват талии</td>
+          <td>66/69</td>
+          <td>70/74</td>
+          <td>74/76</td>
+          <td>80/84</td>
+        </tr>
+        <tr>
+          <td>Обхват бедер</td>
+          <td>92/95</td>
+          <td>96/100</td>
+          <td>102/104</td>
+          <td>105/108</td>
+        </tr>
+        <tr>
+          <td>Длина штанины</td>
+          <td>89</td>
+          <td>90</td>
+          <td>91</td>
+          <td>92</td>
+        </tr>
+      </table>
+    </div>
+    </div>
+    <div class="modal-overlay"></div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/color-select.js"></script>
+    <script src="js/slider.js"></script>
+    <script>
+
+      var modalSizeOpen = document.querySelector('.order-form__size-table');
+      var modalSizeClose = document.querySelector('.modal-close');
+      var modalSize = document.querySelector('.modal-size');
+      var overlay = document.querySelector('.modal-overlay');
+
+      modalSizeOpen.addEventListener("click", function(event) {
+        event.preventDefault();
+        modalSize.classList.add("modal-size--show");
+        overlay.classList.add("modal-overlay--show");
+      });
+
+      modalSizeClose.addEventListener("click", function(event) {
+        event.preventDefault();
+        modalSize.classList.remove("modal-size--show");
+        overlay.classList.remove("modal-overlay--show");
+      });
+
+      overlay.addEventListener("click", function(event) {
+        event.preventDefault();
+        modalSize.classList.remove("modal-size--show");
+        overlay.classList.remove("modal-overlay--show");
+      });
+
+      window.addEventListener("keydown", function(event) {
+        if (event.keyCode === 27) {
+          if (modalSize.classList.contains("modal-size--show")) {
+            modalSize.classList.remove("modal-size--show");
+            overlay.classList.remove("modal-overlay--show");
+          };
+        };
+      });
+
+      $(document).ready(function(){
+        $(".discount").on("click","a", function (event) {
+          event.preventDefault();
+          var id  = $(this).attr('href'),
+           top = $(id).offset().top;
+          $('body,html').animate({scrollTop: top}, 500);
+        });
+      });
+    </script>
+  </body>
+</html>
